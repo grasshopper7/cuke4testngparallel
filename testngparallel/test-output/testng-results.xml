@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8786" started-at="2019-03-19T18:47:48Z" finished-at="2019-03-19T18:47:56Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Default@2b98378d]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="8786" started-at="2019-03-19T18:47:48Z" finished-at="2019-03-19T18:47:56Z">
+      <class name="runner.Default">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.Default@2b98378d]" name="setUpClass" is-config="true" duration-ms="266" started-at="2019-03-19T18:47:48Z" finished-at="2019-03-19T18:47:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Default@2b98378d]" name="runScenario" duration-ms="4302" started-at="2019-03-19T18:47:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-03-19T18:47:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Scenario and Scenario Outline Combination"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Default@2b98378d]" name="runScenario" duration-ms="4298" started-at="2019-03-19T18:47:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-03-19T18:47:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario Outline 1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Scenario and Scenario Outline Combination"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Default@2b98378d]" name="runScenario" duration-ms="4287" started-at="2019-03-19T18:47:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-03-19T18:47:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario Outline 1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Scenario and Scenario Outline Combination"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Default@2b98378d]" name="runScenario" duration-ms="4300" started-at="2019-03-19T18:47:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-03-19T18:47:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Scenario Only"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Default@2b98378d]" name="runScenario" duration-ms="4281" started-at="2019-03-19T18:47:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-03-19T18:47:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario Outline 3"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Scenario Outline Only"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Default@2b98378d]" name="runScenario" duration-ms="4274" started-at="2019-03-19T18:47:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-03-19T18:47:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario Outline 3"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Scenario Outline Only"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Default@2b98378d]" name="runScenario" duration-ms="4280" started-at="2019-03-19T18:47:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-03-19T18:47:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario Outline 4"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Scenario and Scenario Outline Combination"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Default@2b98378d]" name="runScenario" duration-ms="4264" started-at="2019-03-19T18:47:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-03-19T18:47:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario Outline 4"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Scenario and Scenario Outline Combination"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Default@2b98378d]" name="runScenario" duration-ms="4257" started-at="2019-03-19T18:47:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-03-19T18:47:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 5"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Scenario Only"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Default@2b98378d]" name="runScenario" duration-ms="4253" started-at="2019-03-19T18:47:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-03-19T18:47:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 4"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Scenario and Scenario Outline Combination"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Default@2b98378d]" name="runScenario" duration-ms="4003" started-at="2019-03-19T18:47:52Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-03-19T18:47:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario Outline 6"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Scenario Outline Only"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Default@2b98378d]" name="runScenario" duration-ms="4006" started-at="2019-03-19T18:47:52Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-03-19T18:47:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario Outline 6"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Scenario Outline Only"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.Default@2b98378d]" name="tearDownClass" is-config="true" duration-ms="109" started-at="2019-03-19T18:47:56Z" finished-at="2019-03-19T18:47:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.Default -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
