@@ -92,9 +92,7 @@
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>
-			
-			
+			</plugin>		
 			
 			<plugin>
 				<groupId>com.trivago.rta</groupId>
