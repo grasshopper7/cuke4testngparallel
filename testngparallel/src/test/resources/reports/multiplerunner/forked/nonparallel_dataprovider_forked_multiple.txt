@@ -1,0 +1,27 @@
+Thread Id  | Scenario Num       | Step Count
+
+Thread  1 ->         Scenario 1 - FIRST  STEP
+Thread  1 ->         Scenario 4 - FIRST  STEP
+Thread  1 ->         Scenario 1 - SECOND STEP
+Thread  1 ->         Scenario 4 - SECOND STEP
+Thread  1 -> Scenario Outline 1 - FIRST  STEP
+Thread  1 -> Scenario Outline 4 - FIRST  STEP
+Thread  1 -> Scenario Outline 1 - FIRST  STEP
+Thread  1 -> Scenario Outline 4 - FIRST  STEP
+Thread  1 -> Scenario Outline 1 - SECOND STEP
+Thread  1 -> Scenario Outline 4 - SECOND STEP
+Thread  1 -> Scenario Outline 1 - SECOND STEP
+Thread  1 -> Scenario Outline 4 - SECOND STEP
+Thread  1 ->         Scenario 2 - FIRST  STEP
+Thread  1 ->         Scenario 5 - FIRST  STEP
+Thread  1 ->         Scenario 2 - SECOND STEP
+Thread  1 ->         Scenario 5 - SECOND STEP
+Thread  1 -> Scenario Outline 3 - FIRST  STEP
+Thread  1 -> Scenario Outline 6 - FIRST  STEP
+Thread  1 -> Scenario Outline 3 - FIRST  STEP
+Thread  1 -> Scenario Outline 6 - FIRST  STEP
+Thread  1 -> Scenario Outline 3 - SECOND STEP
+Thread  1 -> Scenario Outline 6 - SECOND STEP
+Thread  1 -> Scenario Outline 3 - SECOND STEP
+
+DURATION - 0m25.350s

@@ -64,30 +64,20 @@
 								<include>**/*Runner.java</include>
 							</includes>
 
-							<!-- UNCOMMENT BELOW 3 LINES - To execute using parallel or combination 
-								option -->
-							<!-- <parallel>methods</parallel> <threadCount>2</threadCount> <perCoreThreadCount>false</perCoreThreadCount> -->
+							<!-- OPTIONAL UNCOMMENT BELOW 5 LINES - To set data provider thread count value.
+							Default is 10. For executing using parallel or combination -->
+							<!-- <properties>
+								<property>
+									<name>dataproviderthreadcount</name>
+									<value>4</value>
+								</property>
+							</properties> -->
 
 							<!-- UNCOMMENT BELOW 3 LINES - To execute using forking or combination 
 								option -->
 							<forkCount>2</forkCount>
 							<reuseForks>true</reuseForks>
 							<reportsDirectory>${project.build.directory}/failsafe-reports_${surefire.forkNumber}</reportsDirectory>
-
-							<properties>
-								<!-- <property>
-									<name>parallel</name>
-									<value>methods</value>
-								</property> -->
-								<!-- <property>
-									<name>threadcount</name>
-									<value>3</value>
-								</property> -->
-								<!-- <property>
-									<name>dataproviderthreadcount</name>
-									<value>4</value>
-								</property> -->
-							</properties>
 
 						</configuration>
 					</execution>
@@ -97,7 +87,7 @@
 			<plugin>
 				<groupId>com.trivago.rta</groupId>
 				<artifactId>cluecumber-report-plugin</artifactId>
-				<version>1.7.2</version>
+				<version>1.8.0</version>
 				<executions>
 					<execution>
 						<id>report</id>
