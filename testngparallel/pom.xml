@@ -64,20 +64,26 @@
 								<include>**/*Runner.java</include>
 							</includes>
 
-							<!-- OPTIONAL UNCOMMENT BELOW 5 LINES - To set data provider thread count value.
-							Default is 10. For executing using parallel or combination -->
+							<!-- OPTIONAL UNCOMMENT BELOW 6 LINES - To set data provider thread count value.
+							Default is 10. For executing using parallel or forking -->
 							<!-- <properties>
 								<property>
 									<name>dataproviderthreadcount</name>
 									<value>4</value>
 								</property>
 							</properties> -->
+														
+							<!-- OPTIONAL UNCOMMENT BELOW 3 LINES - In case of multiple runners to further reduce times. 
+							For executing using parallel -->
+							<!-- <parallel>classes</parallel>
+							<threadCount>4</threadCount>
+							<perCoreThreadCount>true</perCoreThreadCount> -->
 
-							<!-- UNCOMMENT BELOW 3 LINES - To execute using forking or combination 
+							<!-- UNCOMMENT BELOW 3 LINES - To execute using forking 
 								option -->
-							<forkCount>2</forkCount>
+							<!-- <forkCount>2</forkCount>
 							<reuseForks>true</reuseForks>
-							<reportsDirectory>${project.build.directory}/failsafe-reports_${surefire.forkNumber}</reportsDirectory>
+							<reportsDirectory>${project.build.directory}/failsafe-reports_${surefire.forkNumber}</reportsDirectory> -->
 
 						</configuration>
 					</execution>
